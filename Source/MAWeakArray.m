@@ -30,7 +30,7 @@
 {
     self = [self initWithCapacity:cnt];
     
-    for(NSInteger i = 0; i < cnt; i++)
+    for(NSUInteger i = 0; i < cnt; i++)
         if(objects[i] != nil)
             [self addObject:objects[i]];
     
